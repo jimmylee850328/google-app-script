@@ -18,7 +18,7 @@ export default async function handler(req, res) {
     });
 
     // 發送結果到事件處理網址
-    const eventResponse = await fetch('https://event-three-rose.vercel.app/', {
+    const eventResponse = await fetch('https://event-three-rose.vercel.app/send-email/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
