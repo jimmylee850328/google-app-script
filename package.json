@@ -1,0 +1,11 @@
+{
+  "name": "key-transform-api",
+  "version": "1.0.0",
+  "description": "Simple API to transform keys and values",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+  }
+} 
